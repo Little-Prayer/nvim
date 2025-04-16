@@ -4,7 +4,7 @@
 
 <https://code.visualstudio.com/>
 
-## neovim
+## Neovim
 
 <https://neovim.io/>
 
@@ -12,7 +12,7 @@
 
 <https://github.com/vscode-neovim/vscode-neovim>
 
-## Neovide(neovim GUI)
+## Neovide(Neovim GUI)
 
 簡易メモ用途  
 <https://github.com/neovide/neovide>
