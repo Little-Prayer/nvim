@@ -6,9 +6,10 @@ opts = { noremap = true, silent = true }
 -- import setting
 require("config.lazy")
 require("config.keymap")
-require("config.vscode")
+require("config.vscodeconf")
 require("config.neovide")
-require("config.notvscode")
+require("config.notvscodeconf")
+require("config.firenvimconf")
 
 opt.ignorecase = true
 opt.smartcase = true

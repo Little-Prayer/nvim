@@ -4,4 +4,5 @@ if not vim.g.vscode then
     opt.termguicolors = true
     vim.cmd([[colorscheme NeoSolarized]])
     opt.shell = "git-bash.exe"
+    opt.laststatus = 3
 end
