@@ -66,17 +66,10 @@ if vim.g.neovide then
 
     --- Neovideを透明にする設定
     -- 不透明度の設定
-    vim.g.neovide_transparency = 0.8
+    vim.g.neovide_opacity = 0.8
     -- 境界線を表示(不透明なウィンドウの周囲にのみ灰色の境界線を表示)
     vim.g.neovide_show_border = true
 
-    -- フローティングやポップアップを完全に透明にする
-    -- vim.opt.winblend = 100
-    -- vim.opt.pumblend = 100
-    -- フローティングやポップアップを完全に透明にしない
-    -- vim.opt.winblend = 0
-    -- vim.opt.pumblend = 0
-    -- フローティングやポップアップの透明度
     vim.opt.winblend = 20
     vim.opt.pumblend = 20
 

@@ -14,6 +14,7 @@ require("config.firenvimconf")
 opt.ignorecase = true
 opt.smartcase = true
 opt.incsearch = true
+opt.wrap = false
 
 opt.langmenu = "en_US.UTF-8"
 vim.cmd("language message en_US.UTF-8")

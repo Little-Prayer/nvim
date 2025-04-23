@@ -44,6 +44,32 @@ return {
             desc = "Jump to a line end",
         },
         {
+            "<leader>I",
+            mode = { "n", "x", "o" },
+            function()
+                require("flash").jump({
+                    search = { mode = "search", max_length = 0 },
+                    label = { after = { 0, 0 } },
+                    pattern = "^",
+                })
+                vim.cmd("startinsert")
+            end,
+            desc = "Jump to a line and insert",
+        },
+        {
+            "<leader>A",
+            mode = { "n", "x", "o" },
+            function()
+                require("flash").jump({
+                    search = { mode = "search", max_length = 0 },
+                    label = { after = { 0, 0 } },
+                    pattern = "$",
+                })
+                vim.cmd("startinsert!")
+            end,
+            desc = "Jump to a line end and insert",
+        },
+        {
             "<leader>j",
             mode = { "n", "x", "o" },
             function()
