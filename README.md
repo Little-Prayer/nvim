@@ -29,5 +29,9 @@ Luaのコードフォーマッタ、設定ファイルの自動整形
 
 ## HackGen
 
-フォント、VSCodeではHackGen35、VimではHackGen_Console_NFを使用  
-https://github.com/yuru7/HackGen
+フォント
+- VSCode
+  - Editor: Hackgen35
+  - Terminal:Hackgen35 Console NF
+- NeoVim: Hackgen35 Console NF
+<https://github.com/yuru7/HackGen/>
