@@ -73,10 +73,15 @@ if vim.g.neovide then
     vim.opt.winblend = 20
     vim.opt.pumblend = 20
 
-    vim.g.neovide_title_background_color = string.format(
-        "%x",
-        vim.api.nvim_get_hl(0, {id=vim.api.nvim_get_hl_id_by_name("Normal")}).bg
-    )
+    vim.g.neovide_title_background_color =
+        string.format("%x", vim.api.nvim_get_hl(0, { id = vim.api.nvim_get_hl_id_by_name("Normal") }).bg)
 
     vim.g.neovide_title_text_color = "lime"
+
+    -- フォーカスが外れたらInsertモードから抜け出す
+    vim.api.nvim_create_autocmd({ "FocusLost", "BufLeave" }, {
+        callback = function()
+            vim.cmd("stopinsert")
+        end,
+    })
 end
