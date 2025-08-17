@@ -5,4 +5,5 @@ if not vim.g.vscode then
     vim.cmd([[colorscheme NeoSolarized]])
     opt.shell = "git-bash.exe"
     opt.laststatus = 3
+    opt.guifont = "HackGen35_Console_NF"
 end

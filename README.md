@@ -26,3 +26,13 @@ kensaku_vimの前提のdenopsの前提
 
 Luaのコードフォーマッタ、設定ファイルの自動整形  
 <https://github.com/JohnnyMorganz/StyLua>
+
+## HackGen
+
+フォント
+
+- VSCode
+  - Editor: Hackgen35
+  - Terminal:Hackgen35 Console NF
+- NeoVim: Hackgen35 Console NF  
+<https://github.com/yuru7/HackGen/>
